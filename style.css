@@ -1,54 +1,72 @@
-*{
+/* Reset default margin, padding, and box-sizing */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.wrapper{
+
+/* Styling for the main container */
+.wrapper {
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
 }
-.container{
+
+/* Styling for the content container */
+.container {
     max-width: 1200px;
     height: 100%;
     margin: 0 auto;
     padding: 20px;
 }
-.container h1{
+
+/* Styling for the main heading */
+.container h1 {
     margin: 20px 0;
     margin-bottom: 20px;
     font-size: 3rem;
     text-align: center;
 }
+
+/* Styling for the gallery grid */
 .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
 }
-.card{
+
+/* Styling for individual image cards */
+.card {
     width: 32%;
     position: relative;
     margin-bottom: 20px;
     border-radius: 10px;
     overflow: hidden;
 }
-.card img{
+
+/* Styling for card images */
+.card img {
     height: 100%;
     width: 100%;
     box-shadow: 0 0 20px #333;
     filter: grayscale(100%);
     object-fit: cover;
 }
+
+/* Hover effect for image cards */
 .card:hover {
     transform: scale(1.03);
     transition: 0.3s;
     filter: drop-shadow(0 0 10px #333);
 }
-.card:hover  img{
+
+/* Hover effect for card images */
+.card:hover img {
     filter: grayscale(0%);
 }
-.card figcaption{
+
+/* Styling for image captions */
+.card figcaption {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -62,9 +80,10 @@
     border-radius: 0 0 10px 10px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
     transition: 0.3s;
-  }
-  
-  .card:hover figcaption {
+}
+
+/* Hover effect for image captions */
+.card:hover figcaption {
     opacity: 1;
     transform: scale(1.03);
-  }  
+}
