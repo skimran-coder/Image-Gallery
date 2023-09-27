@@ -17,7 +17,7 @@ A simple web application that showcases a collection of images in a responsive g
 
 ## Demo
 
-You can try the live demo of this Image Gallery [here](https://skimran-coder.github.io/Image-Gallery/){:target="_blank"}.
+You can try the live demo of this Image Gallery [here](https://skimran-coder.github.io/Image-Gallery/).
 
 ## Features
 
