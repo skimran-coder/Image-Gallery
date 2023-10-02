@@ -1,6 +1,6 @@
 # Image Gallery
 
-![Image Gallery Screenshot](screenshot.png)
+![Image Gallery Screenshot](images/screenshot.png)
 
 A simple web application that showcases a collection of images in a responsive grid layout. Users can view and interact with the images by clicking on them.
 
